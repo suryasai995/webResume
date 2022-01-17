@@ -1,0 +1,65 @@
+<div class="container">
+<mat-grid-list cols="2" rowHeight="90vh">
+    <mat-grid-tile>
+
+      <section class="details">
+        <div id="main">
+            <div mat-card-image class="image"></div>
+        <div class="title" *ngFor="let x of details ">
+               <span class="mat-body">NAME:-</span> {{x.name}} <br>
+               <span class="mat-body">TITLE:-</span>{{x.title}}<br>
+               <span class="mat-body">Contact:-</span>{{x.phno}}
+               <br><div class="mail">{{x.email}}</div>
+        </div>
+        </div>
+      </section>
+      
+       
+        <section class="education">
+          <div class="mat-title">Education</div><br>
+         <div >
+            <div class="mat-h2">Bachelor of Technology:- </div>
+               <p>in the stream of Electrical and Electronics Engineering
+                  at Prasiddha Engineering College in anathavara E.G Andhra Pradesh Passed out 2019.</p>
+                
+            <div class="mat-h2">Diploma :- </div>
+            <p>in Electrical and Electronics Engineering in BVCITS at Amalapuram  passed out 2016. </p>
+                
+                </div>
+                
+    
+      </section>
+
+         
+    </mat-grid-tile>
+    
+    <mat-grid-tile class="matgridtile2">
+   <section id="details2">
+      <div class="mat-title">Skills</div> 
+      <br>
+      <div class="spinner"  >
+     
+       <ul  *ngFor="let spin of spinner" >
+         <li>
+        <mat-progress-spinner
+        color="{{spin.color}}"
+        value="{{spin.value}}" >
+        </mat-progress-spinner>  {{spin.name}}
+        <div class="spinvalue">{{spin.value}}%</div>
+       </li></ul>
+     </div> 
+     <div class="mat-title">Professional Summary</div> 
+     <ul class="known">
+       <li>Good knowledge  on Angular 8,  HTML,  CSS  skills for implementing web technologies.</li>
+       <li>	Working knowledge in using Angular Material UI Components and Bootstrap UI Components.</li>
+       <li>	Experience in working with Angular 8/12 modules, services, templates, directives and dependency injection to create a SPA.</li>
+       <li>	Good amount of work done on Reactive forms and template forms in Angular 12 and their Validations.</li>
+       <li>	Good amount of work done on angular routing navigation.</li>
+     </ul>
+
+    </section>
+
+     </mat-grid-tile>
+
+    </mat-grid-list>
+</div>

@@ -1,0 +1,41 @@
+.container{
+    padding: 20px;
+}
+.mat-display ,.mat-display, h4{
+    text-decoration: underline;
+    color: darkorange;
+    text-shadow: 2px 3px 2px black;
+    letter-spacing: 1px;
+    margin: 0 0 9px;
+}
+.Certification{
+    padding-left: 30px;
+}
+.Certification p{
+    padding-left: 90px;
+    color: blanchedalmond;
+    text-shadow: 1px 4px 2px black;
+    font-family: play;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.date{
+    position: absolute;
+    top: 0px;
+    display: inline-block;
+    right: 8%;
+    width: 30%;
+}
+
+.clint{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+.clint p{
+ position: absolute;
+ width: 100%;
+ top:10px
+}

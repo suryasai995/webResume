@@ -1,0 +1,137 @@
+mat-grid-tile {
+    box-shadow: 0 4px 2px -2px rgba(31, 30, 30, 0.856);
+    justify-content: none;
+    align-items: none;
+    background:linear-gradient(to right, rgba(38, 38, 39, 0.856),rgba(43, 43, 44, 0.856),url("/assets/deskimg.jpg"));
+   padding: auto;
+   
+  }
+  mat-grid-list{
+   position: relative;
+  }
+  /* mat-grid-list mat-grid-tile:nth-child(1){
+    border-bottom-right-radius: none;
+    
+    border-top-right-radius: none;
+  } */
+  .container{
+height: 100%;
+  }
+/*-----card------*/
+
+.example-card {
+  max-width: 300px;
+}
+#main{
+  display: inline-block;
+ position: absolute;
+ top: 20px;
+ left: 20px;
+}
+.title{
+  display: block;
+  float: left;
+  margin: 20px;
+  font-family: 'Roboto';
+  letter-spacing: 1px;
+  font-weight: 900;
+  font-size: 1rem;
+}
+.title span{
+  color: rgb(7, 7, 10);
+  font-size: large;
+  font-weight: 500;
+  margin-right: 5px;
+  padding-right: 5px;
+  text-shadow: 1px 2px 2px black;
+}
+.title{
+  color: aliceblue;
+  
+  text-shadow: 1px 2px 2px black;
+  font-size: 20px;
+}
+.mail{
+  margin-left: 45px;
+}
+.image {
+  background-image: url('/assets/DSC_0839.JPG');
+  float:left;
+  vertical-align: middle;
+  background-size: cover;
+  height: 30vh;
+  width: 15vw;
+  border-radius: 5%;
+  box-shadow: 6px 6px 3px -2px rgba(31, 30, 30, 0.856);
+
+}
+/*   education*/
+.mat-title{
+  margin: -12px;
+  padding: 0;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 36px;
+}
+.education{
+  color: aliceblue;
+  float: left;
+  margin-left: 3%;
+  text-align: left;
+  margin-top: 20vh;
+  margin-bottom: 0;
+}
+.mat-title, .mat-h2{
+  color: black;
+  text-shadow: 2px 3px 2px rgba(214, 50, 50, 0.692);
+}
+
+.education p{
+  margin-top: 0;
+   margin-left: 5px;
+   padding: 2px;
+   letter-spacing: .5px;
+   font-family: play;
+   font-size: x-large;
+   font-weight: 30px;
+  text-shadow: 1px 2px 2px black;
+}
+/*----skill---**/
+
+#details2{
+  position: absolute;
+  top: 4vh;
+}
+
+ ul {
+   position: relative;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+}
+ul li{
+  list-style: none;
+  width: 100%;
+  padding: 8px;
+  color: bisque;
+  
+  font-size: 20px;
+}
+ul li mat-progress-spinner{
+  width: 20px;
+  height: 3rem;
+}
+.spinvalue{
+  position: absolute;
+  justify-content: center;
+  font-size: 30px;
+  color: rgb(192, 226, 43);
+  text-shadow: 2px 3px 2px black;
+  font-weight: bold;
+  align-items: center;
+  top: 40px;
+  left:40px ;
+
+}
+
+
